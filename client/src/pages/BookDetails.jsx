@@ -62,7 +62,7 @@ const BookDetail = () => {
       <p><strong>Author:</strong> {book.author}</p>
       <p><strong>Publishers:</strong> {book.publishers.join(", ")}</p>
       <p><strong>Genres:</strong> {book.genres.join(", ")}</p>
-      <p><strong>Price:</strong> ${book.price.toFixed(2)}</p>
+{/*       <p><strong>Price:</strong> ${book.price.toFixed(2)}</p> */}
       <p><strong>Pages:</strong> {book.pages}</p>
       {/* <p><strong>Description:</strong> {book.description || "No description available."}</p> */}
 
