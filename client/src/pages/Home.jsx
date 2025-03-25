@@ -47,7 +47,7 @@ const Homepage = () => {
             <div key={book._id} style={styles.bookCard}>
               <h3 style={styles.bookTitle}>{book.title}</h3>
               <p><strong>Author:</strong> {book.author}</p>
-              <p><strong>Price:</strong> ${book.price.toFixed(2)}</p>
+{/*               <p><strong>Price:</strong> ${book.price.toFixed(2)}</p> */}
               <Link to={`/books/${book._id}`}>View Details</Link>
             </div>
           ))
